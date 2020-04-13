@@ -1,0 +1,332 @@
+{
+  "data": [
+    {
+      "museum": {
+        "museumId": 1,
+        "name": "Vancouver Art Gallery",
+        "description": "Art Museum",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Vancouver_Art_Gallery_2009-05-09.jpg",
+        "address": "750 Hornby St",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6Z 2H7",
+        "museum_category": {
+          "categoryId": 2,
+          "categoryName": "Art",
+          "imageURL": "https://i.picsum.photos/id/102/80/80.jpg"
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 124,
+            "name": "Shuvinai Ashoona: Mapping Worlds"
+          },
+          {
+            "exhibitionId": 127,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 129,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 123,
+            "name": "Cindy Sherman"
+          },
+          {
+            "exhibitionId": 128,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 125,
+            "name": "Lineages and Land Bases"
+          },
+          {
+            "exhibitionId": 126,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 2,
+        "name": "Science World at TELUS World of Science",
+        "description": "Science",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Science_World_at_TELUS_World_of_Science.jpg",
+        "address": "1455 Quebec St",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6A 3Z7",
+        "museum_category": {
+          "categoryId": 1,
+          "categoryName": "Science",
+          "imageURL": "https://i.picsum.photos/id/0/80/80.jpg"
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 139,
+            "name": "Shuvinai Ashoona: Mapping Worlds"
+          },
+          {
+            "exhibitionId": 142,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 144,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 143,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 140,
+            "name": "Lineages and Land Bases"
+          },
+          {
+            "exhibitionId": 141,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 3,
+        "name": "Museum of Anthropology",
+        "description": "Anthropology",
+        "imageURL": "https://live.staticflickr.com/558/18136995604_e6792e85fa_b.jpg",
+        "address": "6393 NW Marine Dr",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "BC V6T ",
+        "museum_category": {
+          "categoryId": 3,
+          "categoryName": "Anthropology",
+          "imageURL": "https://i.picsum.photos/id/1079/80/80.jpg"
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 147,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 149,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 148,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 145,
+            "name": "Lineages and Land Bases"
+          },
+          {
+            "exhibitionId": 146,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 4,
+        "name": "Police Museum",
+        "description": "History",
+        "imageURL": "https://c1.staticflickr.com/4/3498/3772239169_e446c8d134.jpg",
+        "address": "240 E Cordova St",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6A 1L3",
+        "museum_category": {
+          "categoryId": 4,
+          "categoryName": "History",
+          "imageURL": null
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 151,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 153,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 155,
+            "name": "Shuvinai Ashoona: Mapping Worlds"
+          },
+          {
+            "exhibitionId": 152,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 154,
+            "name": "Cindy Sherman"
+          },
+          {
+            "exhibitionId": 150,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 5,
+        "name": "Museum of Vancouver",
+        "description": "History",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/54/Van_museum_space_centre.jpg",
+        "address": "1100 Chestnut St",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6J 3J9",
+        "museum_category": {
+          "categoryId": 4,
+          "categoryName": "History",
+          "imageURL": null
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 156,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 158,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 157,
+            "name": "The Tin Man was a Dreamer "
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 6,
+        "name": "Pacific Museum of Earth",
+        "description": "History",
+        "imageURL": "https://pme.ubc.ca/files/2018/05/DSCF3949-e1527806191709.jpg",
+        "address": "6339 Stores Rd",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6T 1Z4",
+        "museum_category": {
+          "categoryId": 4,
+          "categoryName": "History",
+          "imageURL": null
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 160,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 161,
+            "name": "Shuvinai Ashoona: Mapping Worlds"
+          },
+          {
+            "exhibitionId": 164,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 159,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 165,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 162,
+            "name": "Lineages and Land Bases"
+          },
+          {
+            "exhibitionId": 163,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 7,
+        "name": "BC Sports Hall of Fame",
+        "description": "History",
+        "imageURL": "https://live.staticflickr.com/8694/28286729511_0a28aee612_b.jpg",
+        "address": "1455 Quebec St",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6A 3Z7",
+        "museum_category": {
+          "categoryId": 4,
+          "categoryName": "History",
+          "imageURL": null
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 166,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 167,
+            "name": "Shuvinai Ashoona: Mapping Worlds"
+          },
+          {
+            "exhibitionId": 170,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 171,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 168,
+            "name": "Lineages and Land Bases"
+          },
+          {
+            "exhibitionId": 169,
+            "name": "Rapture, Rhythm and The Tree of Life"
+          }
+        ]
+      }
+    },
+    {
+      "museum": {
+        "museumId": 8,
+        "name": "Vancouver Maritme Museum",
+        "description": "Science",
+        "imageURL": "https://www.tripsavvy.com/thmb/aDGVMbINAzeAay1g6Wc5N8ygiss=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1013861026-e9711799d6484f048425c032be8ffc15.jpg",
+        "address": "1905 Ogden Ave",
+        "city": "vancouver",
+        "province": "BC",
+        "zipcode": "V6J 1A3",
+        "museum_category": {
+          "categoryId": 1,
+          "categoryName": "Science",
+          "imageURL": "https://i.picsum.photos/id/0/80/80.jpg"
+        },
+        "exhibitionsList": [
+          {
+            "exhibitionId": 172,
+            "name": "Emily Carr "
+          },
+          {
+            "exhibitionId": 174,
+            "name": "French Moderns- Monet to Matisse"
+          },
+          {
+            "exhibitionId": 173,
+            "name": "The Tin Man was a Dreamer "
+          },
+          {
+            "exhibitionId": 175,
+            "name": "Cindy Sherman"
+          }
+        ]
+      }
+    }
+  ]
+}

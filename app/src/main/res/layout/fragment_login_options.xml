@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.auth.LoginOptionsFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_login_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_login"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_login_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        
+        app:layout_constraintWidth_percent="0.7"
+        app:layout_goneMarginTop="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/tv_login"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/btn_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/btn_email_label"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_login_height"
+                android:background="@drawable/bg_button_login"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:paddingStart="@dimen/btn_login_drawable_padding"
+                android:paddingEnd="@dimen/btn_login_drawable_padding"
+                android:text="@string/tv_email_login"
+                android:textColor="@color/text_login" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btn_email_label"
+                android:layout_alignBottom="@+id/btn_email_label"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="3dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_email" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/btn_google_label"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_login_height"
+                android:background="@drawable/bg_button_login"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:paddingStart="@dimen/btn_login_drawable_padding"
+                android:paddingEnd="@dimen/btn_login_drawable_padding"
+                android:text="@string/tv_google_login"
+                android:textColor="@color/text_login" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btn_google_label"
+                android:layout_alignBottom="@+id/btn_google_label"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_google" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,514 @@
+{
+  "data": [
+    {
+      "artwork": {
+        "artworkId": 1,
+        "exhibitionId": 123,
+        "sensorId": "n123",
+        "title": "The Pharao",
+        "imageURL": "https://cdn.pixabay.com/photo/2016/07/15/15/55/dachshund-1519374_1280.jpg",
+        "artistName": "Cleopatra",
+        "media": "PNG",
+        "year": "2020",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 9,
+            "artworkId": 1,
+            "description": "The dog was the first animal to be domesticated, and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 10,
+            "artworkId": 1,
+            "description": "Le chien a été le premier animal à être domestiqué et a été élevé sélectivement au cours des millénaires pour divers comportements, capacités sensorielles et attributs physiques",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 2,
+        "exhibitionId": 123,
+        "sensorId": "n124",
+        "title": "Van Goh paiting",
+        "imageURL": "https://zaila-storage.s3-us-west-2.amazonaws.com/DT1567.jpg",
+        "artistName": "Van Gogh",
+        "media": "PNG",
+        "year": "2020",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 0,
+            "artworkId": 2,
+            "description": "Vincent Willem van Gogh, 30 March 1853 – 29 July 1890) was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade, he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. He was not commercially successful, and his suicide at 37 came after years of mental illness and poverty.",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 2,
+            "artworkId": 2,
+            "description": "Vincent Willem van Gogh, 30 mars 1853-29 juillet 1890) était un peintre néerlandais postimpressionniste qui figure parmi les figures les plus célèbres et les plus influentes de l'histoire de l'art occidental. En un peu plus d'une décennie, il a créé environ 2 100 œuvres d'art, dont environ 860 peintures à l'huile, dont la plupart datent des deux dernières années de sa vie. Ils comprennent des paysages, des natures mortes, des portraits et des autoportraits, et se caractérisent par des couleurs vives et dramatique brushwork, impulsif et expressif qui ont contribué aux fondements de l'art moderne. Il n'a pas réussi sur le plan commercial et son suicide à 37 ans est survenu après des années de maladie mentale et de pauvreté.",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 24,
+        "exhibitionId": 123,
+        "sensorId": "n125",
+        "title": "The Scream 33",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/GoToWebinar000.png",
+        "artistName": "Rembrant3",
+        "media": "painting3",
+        "year": "1885",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 34,
+            "artworkId": 24,
+            "description": "This is a famous paiting",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 35,
+            "artworkId": 24,
+            "description": "Esta es una pintura famosa",
+            "languageCode": "es-ES"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 25,
+        "exhibitionId": 123,
+        "sensorId": "n126",
+        "title": "The Scream 3",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/main-image(2).jpg",
+        "artistName": "Rami malek",
+        "media": "Graphic",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 36,
+            "artworkId": 25,
+            "description": "Mr robot is a kickass TV series",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 37,
+            "artworkId": 25,
+            "description": "Mr robot est une série télévisée kickass",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 26,
+        "exhibitionId": 123,
+        "sensorId": "n127",
+        "title": "Monalisa2",
+        "imageURL": null,
+        "artistName": "Leonardo da Vinci",
+        "media": "painting",
+        "year": "1880",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 38,
+            "artworkId": 26,
+            "description": "Carol in english",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 39,
+            "artworkId": 26,
+            "description": "Carol en francais",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 27,
+        "exhibitionId": 123,
+        "sensorId": "n128",
+        "title": "Monalisa2",
+        "imageURL": null,
+        "artistName": "Leonardo da Vinci",
+        "media": "painting",
+        "year": "1880",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 40,
+            "artworkId": 27,
+            "description": "Carol in english",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 41,
+            "artworkId": 27,
+            "description": "Carol en francais",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 28,
+        "exhibitionId": 123,
+        "sensorId": "n129",
+        "title": "Monalisa2",
+        "imageURL": null,
+        "artistName": "Leonardo da Vinci",
+        "media": "painting",
+        "year": "1880",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 42,
+            "artworkId": 28,
+            "description": "Carol in english",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 43,
+            "artworkId": 28,
+            "description": "Carol en francais",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 29,
+        "exhibitionId": 123,
+        "sensorId": "n133",
+        "title": "Mr robot",
+        "imageURL": null,
+        "artistName": "Rami malek",
+        "media": "Graphic",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 44,
+            "artworkId": 29,
+            "description": "Mr robot is a kickass TV series",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 45,
+            "artworkId": 29,
+            "description": "Mr robot est une série télévisée kickass",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 46,
+            "artworkId": 29,
+            "description": "Mr robot es una serie de televisión increíble",
+            "languageCode": "es-ES"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 30,
+        "exhibitionId": 123,
+        "sensorId": "n135",
+        "title": "Parks and rec",
+        "imageURL": null,
+        "artistName": "Ron swanson",
+        "media": "Img",
+        "year": "2012",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 47,
+            "artworkId": 30,
+            "description": "Ron Swanson has a great way of grabbing people's attention",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 48,
+            "artworkId": 30,
+            "description": "Ron Swanson a un excellent moyen d'attirer l'attention des gens",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 49,
+            "artworkId": 30,
+            "description": "Ron Swanson tiene una excelente manera de llamar la atención de la gente",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 50,
+            "artworkId": 30,
+            "description": "罗恩·斯旺森（Ron Swanson）有吸引人们注意力的好方法",
+            "languageCode": "zh-CN"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 31,
+        "exhibitionId": 123,
+        "sensorId": "n140",
+        "title": "AWS",
+        "imageURL": null,
+        "artistName": "AWS",
+        "media": "Img",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 51,
+            "artworkId": 31,
+            "description": "Test AWS",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 52,
+            "artworkId": 31,
+            "description": "Prueba de AWS",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 53,
+            "artworkId": 31,
+            "description": "Testez AWS",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 54,
+            "artworkId": 31,
+            "description": "测试AWS",
+            "languageCode": "zh-CN"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 32,
+        "exhibitionId": 123,
+        "sensorId": "n147",
+        "title": "AWS 2",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/GoToWebinar000.png",
+        "artistName": "AWS 2 artist",
+        "media": "Img",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 55,
+            "artworkId": 32,
+            "description": "Test 2 AWS 2 ",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 56,
+            "artworkId": 32,
+            "description": "测试2 AWS 2",
+            "languageCode": "zh-CN"
+          },
+          {
+            "artworkDetailsId": 57,
+            "artworkId": 32,
+            "description": "Test 2 AWS 2",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 58,
+            "artworkId": 32,
+            "description": "Prueba 2 AWS 2",
+            "languageCode": "es-ES"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 33,
+        "exhibitionId": 123,
+        "sensorId": "n143",
+        "title": "AWS again",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/GoToWebinar 001.png",
+        "artistName": "AWS",
+        "media": "img",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 59,
+            "artworkId": 33,
+            "description": "asdsadsasd",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 60,
+            "artworkId": 33,
+            "description": "asdsadsasd",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 61,
+            "artworkId": 33,
+            "description": "asdsadsasd",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 62,
+            "artworkId": 33,
+            "description": "asdsadsasd",
+            "languageCode": "zh-CN"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 42,
+        "exhibitionId": 123,
+        "sensorId": "n144",
+        "title": "Universe",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/77J_045R2M.jpg",
+        "artistName": "Brian",
+        "media": "img",
+        "year": "2019",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 63,
+            "artworkId": 42,
+            "description": "sdasdasdasdas",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 64,
+            "artworkId": 42,
+            "description": "sdasdasdasdas",
+            "languageCode": "zh-CN"
+          },
+          {
+            "artworkDetailsId": 65,
+            "artworkId": 42,
+            "description": "sdasdasdasdas",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 66,
+            "artworkId": 42,
+            "description": "sdasdasdasdas",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 43,
+        "exhibitionId": 123,
+        "sensorId": "n149",
+        "title": "Cosmos",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/DP123832.jpg",
+        "artistName": "Troy",
+        "media": "png",
+        "year": "2018",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 67,
+            "artworkId": 43,
+            "description": "asdasdasdasdasda",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 68,
+            "artworkId": 43,
+            "description": "asdasdasdasdasda",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 69,
+            "artworkId": 43,
+            "description": "asdasdasdasdasda",
+            "languageCode": "fr-CA"
+          },
+          {
+            "artworkDetailsId": 70,
+            "artworkId": 43,
+            "description": "阿斯达达斯达斯达斯达",
+            "languageCode": "zh-CN"
+          }
+        ]
+      }
+    },
+    {
+      "artwork": {
+        "artworkId": 44,
+        "exhibitionId": 123,
+        "sensorId": "n146",
+        "title": "Odyssey",
+        "imageURL": "https://zaila-storage.s3.amazonaws.com/DT1939.jpg",
+        "artistName": "Marc",
+        "media": "Painting",
+        "year": "2013",
+        "width": null,
+        "height": null,
+        "artworkDetails": [
+          {
+            "artworkDetailsId": 71,
+            "artworkId": 44,
+            "description": "who's hungry?",
+            "languageCode": "en-US"
+          },
+          {
+            "artworkDetailsId": 72,
+            "artworkId": 44,
+            "description": "谁饿了？",
+            "languageCode": "zh-CN"
+          },
+          {
+            "artworkDetailsId": 73,
+            "artworkId": 44,
+            "description": "¿quien esta hambriento?",
+            "languageCode": "es-ES"
+          },
+          {
+            "artworkDetailsId": 74,
+            "artworkId": 44,
+            "description": "qui a faim?",
+            "languageCode": "fr-CA"
+          }
+        ]
+      }
+    }
+  ]
+}

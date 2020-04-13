@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout_menu_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:tag="layout_menu_user_open"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <View
+            android:id="@+id/bg_user_menu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:alpha="0.2"
+            android:background="@drawable/ic_bg_circle_"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btn_3_menu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_1_menu" />
+
+
+        <ImageView
+            android:id="@+id/btn_1_menu"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bg_menu_circle_stroke"
+            android:padding="8dp"
+            android:src="@drawable/ic_home_home"
+            app:layout_constraintBottom_toTopOf="@id/layout_image_user"
+            app:layout_constraintEnd_toEndOf="@id/layout_image_user"
+            app:layout_constraintStart_toStartOf="@id/layout_image_user" />
+
+        <ImageView
+            android:id="@+id/btn_2_menu"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginStart="@dimen/btn_2_menu_margin_top"
+            android:layout_marginTop="@dimen/btn_2_menu_margin_side"
+            android:adjustViewBounds="true"
+            android:background="@drawable/bg_menu_circle_stroke"
+            android:padding="8dp"
+            android:src="@drawable/ic_home_scan"
+            app:layout_constraintStart_toEndOf="@+id/btn_1_menu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btn_3_menu"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginStart="@dimen/btn_3_menu_margin_side"
+            android:layout_marginTop="@dimen/btn_3_menu_margin_top"
+            android:background="@drawable/bg_menu_circle_stroke"
+            android:padding="8dp"
+            android:src="@drawable/ic_home_profile"
+            app:layout_constraintStart_toEndOf="@+id/layout_image_user"
+            app:layout_constraintTop_toBottomOf="@+id/btn_2_menu" />
+
+        <Button
+            android:id="@+id/btn_4_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="art list"
+            android:textAllCaps="false"
+            android:textSize="8sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_1_menu" />
+
+        <FrameLayout
+            android:id="@+id/layout_image_user"
+            android:layout_width="@dimen/img_user_menu_size"
+            android:layout_height="@dimen/img_user_menu_size_extra"
+            android:layout_marginStart="@dimen/padding_default"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_user_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:src="@drawable/img_user_vincent" />
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar"
+                android:layout_width="@dimen/img_user_menu_size"
+                android:layout_height="@dimen/img_user_menu_size"
+                app:cpb_background_progressbar_color="@color/gray_user_xp"
+                app:cpb_background_progressbar_width="7dp"
+                app:cpb_progress="38"
+                app:cpb_progress_direction="to_right"
+                app:cpb_progressbar_color="@color/golden"
+                app:cpb_progressbar_width="8dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_user_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:elevation="4dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            app:layout_constraintBottom_toBottomOf="@id/layout_image_user"
+            app:layout_constraintEnd_toEndOf="@id/layout_image_user"
+            app:layout_constraintStart_toStartOf="@id/layout_image_user">
+
+            <TextView
+                android:id="@+id/tv_user_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/bg_user_lvl"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="2dp"
+                android:text="Lv. 20"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Zaila</string>
+
+    <string name="error_nfc">NFC not active!</string>
+
+    <string name="tv_connection_retry">Check your internet connection and try again.</string>
+
+
+    <!-- Featuring-->
+    <string name="and">and</string>
+    <string name="others">others</string>
+
+
+    <!-- -->
+    <!-- -->
+
+    <!-- 422... -->
+    <string name="error_api_illegal_state">Error trying to execute the operation.</string>
+
+    <!-- 404... -->
+    <string name="error_api_404">The server can not find the requested resource.</string>
+
+    <!-- 405... -->
+    <string name="error_api_405">Not allowed.</string>
+
+    <!-- 500... -->
+    <string name="error_api_500">An unexpected error has occurred.</string>
+
+    <!-- 503... -->
+    <string name="error_api_503">Service unavailable.</string>
+
+    <string name="JsonDataException">Failed to read the result.</string>
+
+    <string name="en">Service unavailable.</string>
+
+    <!-- LOGIN -->
+    <string name="tv_login">Login</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Signup</string>
+    <string name="tv_email_login">Email</string>
+    <string name="tv_google_login">Google</string>
+    <string name="tv_password_login">Password</string>
+
+    <string name="btn_confirm_login">Confirm</string>
+    <string name="btn_back">Back</string>
+
+    <!-- HOME -->
+    <string name="tv_museums_home">Museums close to you</string>
+    <string name="tv_current_featuring_label">Current featuring:</string>
+
+
+    <!--PROFILE -->
+    <string name="tv_hello_profile">Hello</string>
+
+    <!-- PROFILE_SETTINGS -->
+    <string name="btn_contact">Contact Zaila</string>
+    <string name="btn_terms">Terms of use</string>
+    <string name="btn_licences">Licenses</string>
+    <string name="btn_logout">Logout</string>
+
+    <string name="tv_language_profile">Language</string>
+    <string name="tv_audio_profile">Audio Description</string>
+    <string name="tv_quests_profile">Quests</string>
+
+    <string name="btn_francais">Français</string>
+    <string name="btn_english">English</string>
+    <string name="btn_chinese">中文</string>
+    <string name="btn_spanish">Español</string>
+
+    <string name="tv_audio_manual">Manual</string>
+    <string name="tv_audio_automatic">Automatic</string>
+
+    <string name="tv_quest_inactive">Inactive</string>
+    <string name="tv_quest_active">Active</string>
+    <string name="tv_exhibition_header">Current Exhibitions</string>
+
+    <!-- Google sign in -->
+    <string name="error_google_token">It was not possible to retrieve your information.</string>
+
+    <!-- Profile tabs -->
+    <string-array name="profile_tabs">
+        <item>Settings</item>
+        <item>Zaila</item>
+        <item>Badges</item>
+        <item>History</item>
+    </string-array>
+
+</resources>

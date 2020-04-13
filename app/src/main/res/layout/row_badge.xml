@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="20dp"
+    android:minHeight="50dp"
+    android:padding="12dp">
+
+    <com.mikhaellopez.circleview.CircleView
+        android:id="@+id/row_badge_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cv_color="@color/red_user" />
+
+</LinearLayout>

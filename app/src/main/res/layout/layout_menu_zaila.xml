@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_exhibition_details">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layout_menu_zaila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_default"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/btn_1_menu_zaila"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bg_circle_golden"
+            android:padding="7dp"
+            android:src="@drawable/ic_menu_quest"
+            app:layout_constraintBottom_toTopOf="@id/layout_image_zaila"
+            app:layout_constraintEnd_toEndOf="@id/layout_image_zaila"
+            app:layout_constraintStart_toStartOf="@id/layout_image_zaila" />
+
+        <ImageView
+            android:id="@+id/btn_2_menu_zaila"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginTop="@dimen/btn_2_menu_margin_side"
+            android:layout_marginEnd="@dimen/btn_2_menu_margin_top"
+            android:background="@drawable/bg_circle_golden"
+            android:padding="7dp"
+            android:src="@drawable/ic_menu_map"
+            app:layout_constraintEnd_toStartOf="@+id/btn_1_menu_zaila"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btn_3_menu_zaila"
+            android:layout_width="@dimen/btn_menu_size"
+            android:layout_height="@dimen/btn_menu_size"
+            android:layout_marginTop="@dimen/btn_3_menu_margin_top"
+            android:layout_marginEnd="@dimen/btn_3_menu_margin_side"
+            android:background="@drawable/bg_circle_golden"
+            android:padding="7dp"
+            android:src="@drawable/ic_menu_discover"
+            app:layout_constraintEnd_toStartOf="@+id/layout_image_zaila"
+            app:layout_constraintTop_toBottomOf="@+id/btn_2_menu_zaila" />
+
+        <FrameLayout
+            android:id="@+id/layout_image_zaila"
+            android:layout_width="@dimen/img_user_menu_size"
+            android:layout_height="@dimen/img_user_menu_size_extra"
+            android:layout_marginBottom="@dimen/margin_bottom_zaila_menu"
+            android:background="@null"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/img_user_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_img_zaila" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

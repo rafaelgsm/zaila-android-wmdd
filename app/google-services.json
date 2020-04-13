@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "121347589334",
+    "firebase_url": "https://zaila-android.firebaseio.com",
+    "project_id": "zaila-android",
+    "storage_bucket": "zaila-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121347589334:android:ca94fbaa54e425e8b53577",
+        "android_client_info": {
+          "package_name": "com.zailaapp.zaila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121347589334-irfn985d0c332cftctsmp2uibjrcsiid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zailaapp.zaila",
+            "certificate_hash": "c07575658656f870d87495e042caf0e4e82e9f1e"
+          }
+        },
+        {
+          "client_id": "121347589334-tmn7m6ebchj0qfmfme5l44hg4ci8aeg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCincsvg6Li0OPTnU-9TZT8c8UN7V9JU24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121347589334-tmn7m6ebchj0qfmfme5l44hg4ci8aeg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121347589334:android:071fe04798b642a8b53577",
+        "android_client_info": {
+          "package_name": "com.zailaapp.zaila.development"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121347589334-rv1hc7d63lds595ppme19j9e8mkh01hq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zailaapp.zaila.development",
+            "certificate_hash": "75fb8bc3f1e205860827946ae74f5a9f5285f73f"
+          }
+        },
+        {
+          "client_id": "121347589334-6gsod6pgakba1rlpnpqiue3ac304bjk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zailaapp.zaila.development",
+            "certificate_hash": "c07575658656f870d87495e042caf0e4e82e9f1e"
+          }
+        },
+        {
+          "client_id": "121347589334-tmn7m6ebchj0qfmfme5l44hg4ci8aeg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCincsvg6Li0OPTnU-9TZT8c8UN7V9JU24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121347589334-tmn7m6ebchj0qfmfme5l44hg4ci8aeg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

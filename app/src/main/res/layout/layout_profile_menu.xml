@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fragment_profile">
+
+    <View
+        android:id="@+id/progress_profile_menu_center"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:background="#123"
+        app:layout_constraintBottom_toBottomOf="@id/progress_profile_menu"
+        app:layout_constraintEnd_toEndOf="@id/progress_profile_menu"
+        app:layout_constraintStart_toStartOf="@id/progress_profile_menu"
+        app:layout_constraintTop_toTopOf="@id/progress_profile_menu" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/progress_profile_menu_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <!-- The distance from top here impacts in the ANGLE calculation -->
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/progress_profile_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_top_menu_profile"
+            android:layout_marginBottom="@dimen/margin_bottom_menu_profile_plus_10"
+            android:background="@drawable/bg_circle_golden_stroke_"
+            app:cpb_background_progressbar_color="@color/transparent"
+            app:cpb_background_progressbar_width="0dp"
+            app:cpb_progress="253"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progress_max="1000"
+            app:cpb_progressbar_color="@color/golden"
+            app:cpb_progressbar_width="100dp"
+            app:cpb_start_angle="269"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!-- + LINES + -->
+
+        <View
+            android:id="@+id/line_vertical_profile"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:background="@color/golden"
+            app:layout_constraintBottom_toBottomOf="@id/progress_profile_menu"
+            app:layout_constraintEnd_toEndOf="@id/progress_profile_menu"
+            app:layout_constraintStart_toStartOf="@id/progress_profile_menu"
+            app:layout_constraintTop_toTopOf="@id/progress_profile_menu" />
+
+        <View
+            android:id="@+id/line_horizontal_profile"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="@color/golden"
+            app:layout_constraintBottom_toBottomOf="@id/progress_profile_menu"
+            app:layout_constraintEnd_toEndOf="@id/progress_profile_menu"
+            app:layout_constraintStart_toStartOf="@id/progress_profile_menu"
+            app:layout_constraintTop_toTopOf="@id/progress_profile_menu" />
+
+        <ImageView
+            android:id="@+id/btn_1_profile"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:focusableInTouchMode="false"
+            android:paddingStart="50dp"
+            android:paddingTop="50dp"
+
+            android:paddingEnd="30dp"
+            android:paddingBottom="30dp"
+            android:src="@drawable/ic_profile_settings"
+            app:layout_constraintBottom_toBottomOf="@id/line_horizontal_profile"
+            app:layout_constraintEnd_toEndOf="@id/line_vertical_profile"
+            app:layout_constraintStart_toStartOf="@id/progress_profile_menu"
+            app:layout_constraintTop_toTopOf="@id/progress_profile_menu" />
+
+        <ImageView
+            android:id="@+id/btn_2_profile"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+
+            android:paddingStart="30dp"
+            android:paddingTop="50dp"
+            android:paddingEnd="50dp"
+            android:paddingBottom="30dp"
+            android:src="@drawable/ic_profile_zaila"
+            app:layout_constraintBottom_toBottomOf="@id/line_horizontal_profile"
+            app:layout_constraintEnd_toEndOf="@id/progress_profile_menu"
+            app:layout_constraintStart_toStartOf="@id/line_vertical_profile"
+            app:layout_constraintTop_toTopOf="@id/progress_profile_menu" />
+
+        <ImageView
+            android:id="@+id/btn_4_profile"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:adjustViewBounds="true"
+            android:clickable="false"
+            android:focusable="false"
+
+            android:focusableInTouchMode="false"
+            android:paddingStart="50dp"
+            android:paddingTop="30dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="50dp"
+            android:src="@drawable/ic_profile_history"
+            app:layout_constraintBottom_toBottomOf="@id/progress_profile_menu"
+            app:layout_constraintEnd_toEndOf="@id/line_vertical_profile"
+            app:layout_constraintStart_toStartOf="@id/progress_profile_menu"
+            app:layout_constraintTop_toTopOf="@id/line_horizontal_profile" />
+
+        <ImageView
+            android:id="@+id/btn_3_profile"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingStart="30dp"
+            android:paddingTop="30dp"
+            android:paddingEnd="50dp"
+            android:paddingBottom="50dp"
+            android:src="@drawable/ic_profile_badges"
+            app:layout_constraintBottom_toBottomOf="@id/progress_profile_menu"
+            app:layout_constraintEnd_toEndOf="@id/progress_profile_menu"
+            app:layout_constraintStart_toStartOf="@id/line_vertical_profile"
+            app:layout_constraintTop_toTopOf="@id/line_horizontal_profile" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_horizontal_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:itemCount="1"
+            tools:listitem="@layout/row_profile_indicator" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_image_user_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include layout="@layout/layout_menu_user_closed" />
+    </FrameLayout>
+
+</merge>

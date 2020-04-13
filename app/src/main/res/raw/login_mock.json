@@ -1,0 +1,13 @@
+{
+  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsidXNlcklkIjo1NiwicHJlZmVycmVkTGFuZ3VhZ2UiOiJlbi1VUyIsIm5hbWUiOiJSYWZhZWwgTW9udGVuZWdybyIsImVtYWlsIjoicmFmYWVsZ3Ntb250ZW5lZ3JvQGdtYWlsLmNvbSIsImF1dG9QbGF5RGVzY3JpcHRpb24iOjEsImF1dG9FbnJvbGxRdWVzdCI6MSwidXNlclhQIjoxMDAsInByb2ZpbGVVcmwiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHZ21RSlI2MWZQblpNRThQR09NSi1JV3JvZVBrem9Ub1VCdkxYc0tWdz1zOTYtYyJ9LCJpc3MiOiJaYWlsYSIsImlhdCI6MTU4NjQ2MzUzNSwiZXhwIjoxNTg5MDU1NTM1fQ.COI8wORLMIx1nuZ1IhQNrJUPesE5SfTqW3MvQtQrNVY",
+  "user":{
+    "userId":56,
+    "preferredLanguage":"en-US",
+    "name":"Rafael Montenegro",
+    "email":"rafaelgsmontenegro@gmail.com",
+    "autoPlayDescription":1,
+    "autoEnrollQuest":1,
+    "userXP":100,
+    "profileUrl":"https://lh3.googleusercontent.com/a-/AOh14GgmQJR61fPnZME8PGOMJ-IWroePkzoToUBvLXsKVw=s96-c"
+  }
+}

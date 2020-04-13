@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.zailaapp.zaila.views.activities.LoginActivity">
+
+    <!-- This screen has many states, we are just changing the layout on it. -->
+
+    <!-- region guidelines -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_login_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <!-- endregion guidelines -->
+
+    <ImageView
+        android:id="@+id/ic_zaila_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_zaila_text"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_login_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1" />
+
+    <fragment
+        android:id="@+id/login_nav_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:defaultNavHost="true"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_login_top"
+
+        app:navGraph="@navigation/login_nav_graph"
+        tools:layout="@layout/fragment_login_home" />
+
+    <include
+        layout="@layout/layout_progress"
+        tools:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

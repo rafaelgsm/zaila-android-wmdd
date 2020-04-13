@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5A5C9B</color>
+    <color name="colorPrimaryDark">#2D2F66</color>
+    <color name="colorAccent">#88163b</color>
+
+    <color name="blue">#276180</color>
+    <color name="black">#000</color>
+
+    <color name="red_user">#88163b</color>
+    <color name="label_user_level">#421A15</color>
+
+    <color name="gray_user_xp">#676767</color>
+
+
+    <color name="background">#e7e7e7</color>
+
+    <color name="status_bar_transparent">#00FFFFFF</color>
+
+    <color name="red">#ff5555</color>
+
+    <color name="white">#fff</color>
+    <color name="white_transparent">#3CFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="row_museum_text">#fff</color>
+    <color name="row_museum_top">#c7c7c7</color>
+    <color name="row_museum_bottom">#e5e5e5</color>
+
+
+    <color name="artwork_detail_background">#c3c3c3</color>
+    <color name="status_bar">#27000000</color>
+
+
+    <!-- Login -->
+    <color name="text_login">#88163b</color>
+    <color name="bg_edt_login">#FFF3F3</color>
+    <color name="golden">#f79839</color>
+    <color name="golden_category">#ffd0b1</color>
+
+    <color name="bg_category">#ffdbbf</color>
+
+    <!-- profile LANGUAGE-->
+    <color name="cover_images">#80000000</color>
+</resources>

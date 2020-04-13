@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/tab_layout_profile_zaila">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom_item_profile_zaila">
+
+        <View
+            android:id="@+id/layout_languages_bg_golden"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_round_golden_profile"
+            android:paddingBottom="@dimen/padding_top_bot_profile_zaila"
+            app:layout_constraintBottom_toBottomOf="@+id/layout_container_item_profile"
+            app:layout_constraintEnd_toEndOf="@+id/layout_container_item_profile"
+            app:layout_constraintStart_toStartOf="@+id/layout_container_item_profile"
+            app:layout_constraintTop_toTopOf="@+id/layout_container_item_profile" />
+
+        <View
+            android:id="@+id/tv_label_profile_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/margin_bottom_tv_label_profile_background"
+            android:background="@drawable/bg_round_red_golden_profile_zaila"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tv_label_profile"
+            app:layout_constraintStart_toStartOf="@id/tv_label_profile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_label_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:lineSpacingExtra="-1sp"
+            android:paddingStart="@dimen/padding_sides_profile_zaila"
+            android:paddingTop="@dimen/padding_top_item_zaila"
+            android:paddingEnd="@dimen/padding_sides_profile_zaila"
+            android:paddingBottom="@dimen/padding_bottom_item_zaila"
+            android:text="@string/tv_language_profile"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/layout_languages_bg_white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/stroke_layout_container_item_profile"
+            android:background="@drawable/bg_round_white_profile"
+            android:paddingBottom="@dimen/padding_top_bot_profile_zaila"
+            app:layout_constraintBottom_toBottomOf="@+id/layout_languages_bg_golden"
+            app:layout_constraintEnd_toEndOf="@+id/layout_languages_bg_golden"
+            app:layout_constraintStart_toStartOf="@+id/layout_languages_bg_golden"
+            app:layout_constraintTop_toTopOf="@+id/layout_languages_bg_golden" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_container_item_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/padding_sides_profile_zaila"
+            android:paddingTop="@dimen/padding_top_bot_profile_zaila"
+            android:paddingEnd="@dimen/padding_sides_profile_zaila"
+            android:paddingBottom="@dimen/padding_top_bot_profile_zaila"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_label_profile">
+
+
+            <LinearLayout
+                android:id="@+id/btn_francais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_francais"
+                        android:layout_width="@dimen/img_language_size"
+                        android:layout_height="@dimen/img_language_size"
+                        android:src="@drawable/img_france" />
+
+                    <com.mikhaellopez.circleview.CircleView
+                        android:id="@+id/cover_francais"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignStart="@+id/img_francais"
+                        android:layout_alignTop="@+id/img_francais"
+                        android:layout_alignEnd="@+id/img_francais"
+                        android:layout_alignBottom="@+id/img_francais"
+                        app:cv_color="@color/cover_images" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_francais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/btn_francais"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_size_language" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_chinese"
+                app:layout_constraintStart_toEndOf="@+id/btn_francais"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_english"
+                        android:layout_width="@dimen/img_language_size"
+                        android:layout_height="@dimen/img_language_size"
+                        android:src="@drawable/img_canada" />
+
+                    <com.mikhaellopez.circleview.CircleView
+                        android:id="@+id/cover_english"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignStart="@+id/img_english"
+                        android:layout_alignTop="@+id/img_english"
+                        android:layout_alignEnd="@+id/img_english"
+                        android:layout_alignBottom="@+id/img_english"
+                        android:visibility="invisible"
+                        app:cv_color="@color/cover_images" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/btn_english"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_size_language" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_chinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_spanish"
+                app:layout_constraintStart_toEndOf="@+id/btn_english"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_chinese"
+                        android:layout_width="@dimen/img_language_size"
+                        android:layout_height="@dimen/img_language_size"
+                        android:src="@drawable/img_china" />
+
+                    <com.mikhaellopez.circleview.CircleView
+                        android:id="@+id/cover_chinese"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignStart="@+id/img_chinese"
+                        android:layout_alignTop="@+id/img_chinese"
+                        android:layout_alignEnd="@+id/img_chinese"
+                        android:layout_alignBottom="@+id/img_chinese"
+                        app:cv_color="@color/cover_images" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_chinese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/btn_chinese"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_size_language" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_spanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_spanish"
+                        android:layout_width="@dimen/img_language_size"
+                        android:layout_height="@dimen/img_language_size"
+                        android:src="@drawable/img_spain" />
+
+                    <com.mikhaellopez.circleview.CircleView
+                        android:id="@+id/cover_spanish"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignStart="@+id/img_spanish"
+                        android:layout_alignTop="@+id/img_spanish"
+                        android:layout_alignEnd="@+id/img_spanish"
+                        android:layout_alignBottom="@+id/img_spanish"
+                        app:cv_color="@color/cover_images" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_spanish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_horizontal"
+                    android:lineSpacingExtra="5sp"
+                    android:text="@string/btn_spanish"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_size_language" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

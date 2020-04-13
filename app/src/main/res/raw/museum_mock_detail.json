@@ -1,0 +1,191 @@
+{
+  "data": {
+    "museum": {
+      "museumId": 1,
+      "name": "Vancouver Art Gallery",
+      "description": "Art Museum",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Vancouver_Art_Gallery_2009-05-09.jpg",
+      "address": "750 Hornby St",
+      "city": "vancouver",
+      "province": "BC",
+      "zipcode": "V6Z 2H7",
+      "museum_category": {
+        "categoryId": 2,
+        "categoryName": "Art",
+        "imageURL": "https://i.picsum.photos/id/102/80/80.jpg"
+      },
+      "exhibitionsList": [
+        {
+          "exhibitionId": 124,
+          "museumId": 1,
+          "name": "Shuvinai Ashoona: Mapping Worlds",
+          "description": "Shuvinai Ashoona: Mapping Worlds brings together a selection of drawings created by the acclaimed Inuk artist over the past two decades.",
+          "imageURL": "https://zaila.s3.amazonaws.com/2. Shuvinai Ashoona- Mapping Worlds.jpg",
+          "startDate": "2020-02-22T00:00:00.000Z",
+          "endDate": "2020-05-24T00:00:00.000Z",
+          "categoryId": 1,
+          "completionBadgeId": 1,
+          "completionXP": 20,
+          "exhibition_category": {
+            "categoryId": 1,
+            "categoryName": "Artwork",
+            "imageURL": "https://i.picsum.photos/id/152/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 127,
+          "museumId": 1,
+          "name": "Emily Carr ",
+          "description": "This installation in the Gallery’s 1st Floor Rotunda reflects Emily Carr’s direct engagement with and great affection for British Columbia’s landscape.",
+          "imageURL": "https://zaila.s3.amazonaws.com/5. Emily Carr.jpg",
+          "startDate": "2020-06-01T00:00:00.000Z",
+          "endDate": "2020-05-31T00:00:00.000Z",
+          "categoryId": 1,
+          "completionBadgeId": 1,
+          "completionXP": 10,
+          "exhibition_category": {
+            "categoryId": 1,
+            "categoryName": "Artwork",
+            "imageURL": "https://i.picsum.photos/id/152/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 129,
+          "museumId": 1,
+          "name": "French Moderns- Monet to Matisse",
+          "description": "French Moderns: Monet to Matisse, 1850-1950 presents sixty paintings and sculptures from the Brooklyn Museum’s renowned European permanent and long-term loan collections.",
+          "imageURL": "https://zaila.s3.amazonaws.com/7. French Moderns- Monet to Matisse.jpg",
+          "startDate": "2019-02-21T00:00:00.000Z",
+          "endDate": "2019-05-20T00:00:00.000Z",
+          "categoryId": 1,
+          "completionBadgeId": 1,
+          "completionXP": 20,
+          "exhibition_category": {
+            "categoryId": 1,
+            "categoryName": "Artwork",
+            "imageURL": "https://i.picsum.photos/id/152/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 123,
+          "museumId": 1,
+          "name": "Cindy Sherman",
+          "description": "This important exhibition explores the development of Cindy Sherman’s work from the beginning of her career in the mid-1970s to the present day. Sherman works in series, typically photographing herself in a range of costumes. To create her photographs, Sherman shoots alone in her studio, assuming multiple roles as author, director, make-up artist, hairstylist, wardrobe mistress, and model. Bringing together more than 170 photographs, this retrospective survey traces the artist’s career from the mid 1970s to the present. Highlighted in the exhibition are in-depth presentations of her key series, including the groundbreaking series “Untitled Film Stills” (1977–80), the black-and-white pictures that feature the artist in stereotypical female roles inspired by 1950s and 1960s Hollywood, film noir, and European art-house films; her ornate history portraits (1989–90), in which the artist poses as aristocrats, clergymen, and milkmaids in the manner of old master paintings; and her larger-than-life society portraits (2008) that address the experience and representation of aging in the context of contemporary obsessions with youth and status. The exhibition will explore dominant themes throughout Sherman’s career, including artifice and fiction; cinema and performance; horror and the grotesque; myth, carnival, and fairy tale; and gender and class identity. Also included are Sherman’s recent photographic murals (2010)",
+          "imageURL": "https://zaila.s3.amazonaws.com/1. Cindy Sherman.jpg",
+          "startDate": "2019-10-26T00:00:00.000Z",
+          "endDate": "2020-03-08T00:00:00.000Z",
+          "categoryId": 2,
+          "completionBadgeId": 1,
+          "completionXP": 10,
+          "exhibition_category": {
+            "categoryId": 2,
+            "categoryName": "Photography",
+            "imageURL": "https://i.picsum.photos/id/1079/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 128,
+          "museumId": 1,
+          "name": "The Tin Man was a Dreamer ",
+          "description": "The exhibition shows spectacles of physical power and violence that have long permeated the visual cultures of Western civilizations; battle scenes, warriors, and more. ",
+          "imageURL": "https://zaila.s3.amazonaws.com/6. The Tin Man was a Dreamer.jpg",
+          "startDate": "2020-03-21T00:00:00.000Z",
+          "endDate": "2020-08-23T00:00:00.000Z",
+          "categoryId": 2,
+          "completionBadgeId": 1,
+          "completionXP": 10,
+          "exhibition_category": {
+            "categoryId": 2,
+            "categoryName": "Photography",
+            "imageURL": "https://i.picsum.photos/id/1079/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 125,
+          "museumId": 1,
+          "name": "Lineages and Land Bases",
+          "description": "An exhibition that challenge the modern Western assumption that nature and culture exist as two distinct realms. ",
+          "imageURL": "https://zaila.s3.amazonaws.com/3. Lineages and Land Bases.jpg",
+          "startDate": "2020-02-22T00:00:00.000Z",
+          "endDate": "2020-05-18T00:00:00.000Z",
+          "categoryId": 3,
+          "completionBadgeId": 1,
+          "completionXP": 10,
+          "exhibition_category": {
+            "categoryId": 3,
+            "categoryName": "Nature",
+            "imageURL": "https://i.picsum.photos/id/175/80/80.jpg"
+          }
+        },
+        {
+          "exhibitionId": 126,
+          "museumId": 1,
+          "name": "Rapture, Rhythm and The Tree of Life",
+          "description": "Emily Carr and Her Female Contemporaries focuses on artwork from the first half of the twentieth century by women artists based in British Columbia.",
+          "imageURL": "https://zaila.s3.amazonaws.com/4. Rapture, Rhythm and The Tree of Life.jpg",
+          "startDate": "2019-12-07T00:00:00.000Z",
+          "endDate": "2020-06-28T00:00:00.000Z",
+          "categoryId": 3,
+          "completionBadgeId": 1,
+          "completionXP": 10,
+          "exhibition_category": {
+            "categoryId": 3,
+            "categoryName": "Nature",
+            "imageURL": "https://i.picsum.photos/id/175/80/80.jpg"
+          }
+        }
+      ],
+      "openingHours": [
+        {
+          "openingHoursId": 1,
+          "museumId": 1,
+          "day": "Monday",
+          "startTime": "09:00:00",
+          "endTime": "18:00:00"
+        },
+        {
+          "openingHoursId": 2,
+          "museumId": 1,
+          "day": "Tuesday",
+          "startTime": "09:00:00",
+          "endTime": "18:00:00"
+        },
+        {
+          "openingHoursId": 3,
+          "museumId": 1,
+          "day": "Wednesday",
+          "startTime": "09:00:00",
+          "endTime": "18:00:00"
+        },
+        {
+          "openingHoursId": 4,
+          "museumId": 1,
+          "day": "Thursday",
+          "startTime": "09:00:00",
+          "endTime": "18:00:00"
+        },
+        {
+          "openingHoursId": 5,
+          "museumId": 1,
+          "day": "Friday",
+          "startTime": "09:00:00",
+          "endTime": "20:00:00"
+        },
+        {
+          "openingHoursId": 6,
+          "museumId": 1,
+          "day": "Saturday",
+          "startTime": "09:00:00",
+          "endTime": "20:00:00"
+        },
+        {
+          "openingHoursId": 7,
+          "museumId": 1,
+          "day": "sunday",
+          "startTime": "09:00:00",
+          "endTime": "17:00:00"
+        }
+      ]
+    }
+  }
+}

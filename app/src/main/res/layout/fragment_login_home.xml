@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.auth.LoginHomeFragment">
+
+    <ImageView
+        android:id="@+id/img_zaila"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_img_zaila"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btn_login_height"
+        android:layout_marginStart="@dimen/padding_login_container"
+        android:layout_marginEnd="@dimen/padding_login_container"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_button_login"
+        android:drawableStart="@drawable/ic_btn_login_start"
+        android:drawableEnd="@drawable/ic_btn_login_end"
+        android:gravity="center"
+        android:paddingStart="@dimen/btn_login_drawable_padding"
+        android:paddingEnd="@dimen/btn_login_drawable_padding"
+        android:text="@string/btn_login"
+        android:textColor="@color/text_login"
+        app:layout_constraintBottom_toTopOf="@+id/btn_signup"
+        app:layout_constraintEnd_toEndOf="@id/img_zaila"
+        app:layout_constraintStart_toStartOf="@id/img_zaila"
+        app:layout_constraintTop_toBottomOf="@+id/img_zaila"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/btn_signup"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/btn_login_height"
+        android:layout_marginStart="@dimen/padding_login_container"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/padding_login_container"
+        android:background="@drawable/bg_button_login"
+        android:drawableStart="@drawable/ic_btn_login_start"
+        android:drawableEnd="@drawable/ic_btn_login_end"
+        android:gravity="center"
+        android:paddingStart="@dimen/btn_login_drawable_padding"
+        android:paddingEnd="@dimen/btn_login_drawable_padding"
+        android:text="@string/btn_signup"
+        android:textColor="@color/text_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/img_zaila"
+        app:layout_constraintStart_toStartOf="@id/img_zaila"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_item_resizable"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    tools:paddingStart="30dp">
+    <!-- ID MUST BE row_item_resizable -->
+
+    <!-- PARENT LAYOUT IS PUSHED WITH PADDING -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_row_museum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/padding_default"
+        android:paddingEnd="@dimen/padding_default">
+
+        <!-- THE VALUE HERE DOSENT MATTER -->
+        <!-- CHECK THE ADAPTER TO SEE THE CALCULATION -->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_museum_row_top_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.18" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_museum_row_image_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.0" />
+
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--    CURRENT FEATURING    -->
+
+        <!-- CURRENT FEATURING (BACKGROUND) -->
+        <View
+            android:id="@+id/bg_layout_bottom_museum"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/padding_bottom_row_museum_twice"
+            android:alpha="0"
+            android:background="@drawable/bg_row_museum_2"
+            app:layout_constraintBottom_toBottomOf="@id/img_museum_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/img_museum_half"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:alpha="1" />
+
+        <!-- CURRENT FEATURING (TEXT VIEWS) -->
+
+        <!-- This view is just used as a negative padding -->
+        <!-- To compensate the starting position of the featuring container -->
+        <!-- (The container for the museum image has some inner padding, thus making the text not to be centered) -->
+        <View
+            android:id="@+id/img_museum_background_negative_padding"
+            android:layout_width="20dp"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="@id/img_museum_background"
+            app:layout_constraintEnd_toEndOf="@id/img_museum_background"
+            app:layout_constraintTop_toTopOf="@id/img_museum_background" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_bottom_museum"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:alpha="0"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/bg_layout_bottom_museum"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/img_museum_background_negative_padding"
+            app:layout_constraintTop_toBottomOf="@id/layout_title_row_museum"
+            tools:alpha="1">
+
+            <TextView
+                android:id="@+id/tv_featuring_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="1"
+                android:text="@string/tv_current_featuring_label"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_featuring_label_"
+                app:layout_constraintBottom_toTopOf="@id/tv_featuring"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <!-- Using these 2 to validate the spacing: -->
+            <TextView
+                android:id="@+id/tv_calc_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/tv_featuring"
+                app:layout_constraintEnd_toStartOf="@id/tv_featuring"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_featuring" />
+
+            <TextView
+                android:id="@+id/tv_calc_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:textColor="@color/white"
+                android:textSize="9sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/tv_featuring"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_featuring"
+                app:layout_constraintTop_toTopOf="@id/tv_featuring" />
+
+            <TextView
+                android:id="@+id/tv_featuring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_regular"
+                android:maxLines="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_featuring_label_"
+                app:layout_constraintBottom_toTopOf="@+id/tv_featuring_more"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_featuring_label"
+                tools:text="Cindy Sherman and 3 more Exhibitions" />
+
+
+<!-- text size here is adjusted programmatically; -->
+            <TextView
+                android:id="@+id/tv_featuring_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_light"
+                android:maxLines="1"
+                android:textColor="@color/blue"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_featuring"
+                tools:text="Cindy Sherman and 3 more Exhibitions" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <!--    CURRENT FEATURING    -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--    VANCOUVER ART GALLERY    -->
+
+        <View
+            android:id="@+id/layout_title_row_museum_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_row_museum"
+            app:layout_constraintBottom_toBottomOf="@id/layout_title_row_museum"
+            app:layout_constraintEnd_toEndOf="@id/layout_title_row_museum"
+            app:layout_constraintStart_toStartOf="@id/layout_title_row_museum"
+            app:layout_constraintTop_toTopOf="@id/layout_title_row_museum" />
+
+        <View
+            android:id="@+id/layout_title_row_museum_background_plain"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/stroke_golden"
+            android:layout_marginEnd="@dimen/stroke_golden"
+            android:background="@drawable/bg_row_museum_top_plain"
+            app:layout_constraintBottom_toBottomOf="@id/layout_title_row_museum"
+            app:layout_constraintEnd_toEndOf="@id/layout_title_row_museum"
+            app:layout_constraintStart_toStartOf="@id/img_museum_half"
+            app:layout_constraintTop_toTopOf="@id/layout_title_row_museum" />
+
+        <LinearLayout
+            android:id="@+id/layout_title_row_museum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_name_museum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_extrabold"
+                android:maxLines="1"
+                android:textColor="@color/row_museum_text"
+                android:textSize="@dimen/tv_name_museum_"
+                tools:text="Vancouver Art Gallery" />
+
+            <TextView
+                android:id="@+id/tv_address_museum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_light"
+                android:maxLines="1"
+                android:text="750 Hornby St. - Vancouver, BC"
+                android:textColor="@color/row_museum_text"
+                android:textSize="@dimen/tv_address_museum_" />
+
+        </LinearLayout>
+
+        <!--   VANCOUVER ART GALERY     -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--        -->
+        <!--    MUSEUM IMAGE    -->
+
+        <!-- MUSEUM IMAGE BACKGROUND (CIRCLE) -->
+
+        <com.mikhaellopez.circleview.CircleView
+            android:id="@+id/img_museum_background"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_bottom_row_museum"
+            app:cv_color="@color/golden"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/guideline_museum_row_image_start"
+            app:layout_constraintTop_toTopOf="@+id/guideline_museum_row_top_image"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintWidth_percent="0.25" />
+
+        <FrameLayout
+            android:id="@+id/layout_img_museum"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="2dp"
+            app:layout_constraintBottom_toBottomOf="@id/img_museum_background"
+            app:layout_constraintEnd_toEndOf="@id/img_museum_background"
+            app:layout_constraintStart_toStartOf="@id/img_museum_background"
+            app:layout_constraintTop_toTopOf="@id/img_museum_background">
+
+            <ImageView
+                android:id="@+id/img_museum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_bottom_row_museum"
+                android:adjustViewBounds="true"
+                tools:src="@drawable/pug" />
+        </FrameLayout>
+
+
+        <!-- MUSEUM IMAGE CENTER (USED FOR REFERENCE) -->
+        <View
+            android:id="@+id/img_museum_half"
+            android:layout_width="4dp"
+            android:layout_height="1px"
+            app:layout_constraintBottom_toBottomOf="@+id/img_museum_background"
+            app:layout_constraintEnd_toEndOf="@id/img_museum_background"
+            app:layout_constraintStart_toStartOf="@id/img_museum_background"
+            app:layout_constraintTop_toTopOf="@id/img_museum_background" />
+
+        <com.mikhaellopez.circleview.CircleView
+            android:id="@+id/img_category_museum_background"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/img_category_museum_size_half"
+            android:layout_marginBottom="@dimen/padding_bottom_row_museum"
+            app:cv_border="true"
+            app:cv_border_color="@color/golden"
+            app:cv_border_width="1dp"
+            app:cv_color="@color/bg_category"
+            app:layout_constraintBottom_toBottomOf="@id/layout_img_museum"
+            app:layout_constraintEnd_toEndOf="@id/layout_img_museum"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/guideline_museum_row_image_start"
+            app:layout_constraintTop_toTopOf="@+id/guideline_museum_row_top_image"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintWidth_percent="0.1" />
+
+        <ImageView
+            android:id="@+id/img_category_museum"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="3dp"
+            app:layout_constraintBottom_toBottomOf="@id/img_category_museum_background"
+            app:layout_constraintEnd_toEndOf="@+id/img_category_museum_background"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/img_category_museum_background"
+            app:layout_constraintTop_toTopOf="@+id/img_category_museum_background"
+            app:layout_constraintVertical_bias="1"
+            tools:src="@drawable/ic_category_science" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

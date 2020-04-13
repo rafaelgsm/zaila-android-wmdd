@@ -1,0 +1,54 @@
+{
+  "data": {
+    "artwork": {
+      "artworkId": 60,
+      "exhibitionId": 123,
+      "sensorId": "n131",
+      "title": "Untitled #122",
+      "imageURL": "https://zaila.s3.amazonaws.com/untitled-122.jpg",
+      "artistName": "Cindy Sherman",
+      "media": "Chromogenic Colour Print",
+      "year": "1983",
+      "width": 35,
+      "height": 21,
+      "artworkDetails": [
+        {
+          "artworkDetailsId": 84,
+          "artworkId": 60,
+          "description": "Unruly blonde hair covers most of her face, with a single furrowed brow and bloodshot blue eye glaring through. Part of Sherman’s fashion pictures series, Untitled 122 was inspired by the actress Frances Farmer. The previous year, 1982, Jessica Lange performed as the actress in the film Frances, the sensationalized fictional account of Farmer’s life, spanning from her high school years in the 1930s through her short film career and institutionalization for mental illness in the 1940s to her alleged involuntary lobotomy.  This work simultaneously calls attention to the high fashion of the 1980s, the dramatization of Hollywood fame and celebrity, and the demonization of assertive behavior by women. Wearing a long black coat fitted with large shoulder pads, the figure stands slightly hunched over, fists clenched. Her unruly blonde hair covers most of her face, with a single furrowed brow and bloodshot blue eye glaring through. The harsh lighting from above beats down on the woman, casting a shadow below and behind her as she defiantly gazes up. She reads at once as inhibited and as filled with rage nearing a climactic breaking point.",
+          "languageCode": "en-US"
+        },
+        {
+          "artworkDetailsId": 85,
+          "artworkId": 60,
+          "description": "Faisant partie de la série de photos de mode de Sherman, Untitled 122 a été inspiré par l'actrice Frances Farmer. L'année précédente, 1982, Jessica Lange a joué le rôle de l'actrice dans le film Frances, le récit fictif sensationnaliste de la vie de Farmer, s'étendant de ses années de lycée dans les années 1930 à sa carrière de court métrage et à l'institutionnalisation de la maladie mentale dans les années 1940 à sa prétendue lobotomie involontaire. Ce travail attire simultanément l'attention sur la haute couture des années 1980, la dramatisation de la célébrité et de la célébrité hollywoodiennes et la diabolisation du comportement autoritaire des femmes. Portant un long manteau noir équipé de larges épaulettes, la silhouette se tient légèrement courbée, les poings serrés. Ses cheveux blonds indisciplinés couvrent la majeure partie de son visage, avec un seul front sillonné et un œil bleu injecté de sang. L'éclairage sévère d'en haut frappe la femme, projetant une ombre en dessous et derrière elle alors qu'elle regarde avec défi. Elle lit à la fois comme inhibée et comme remplie de rage s'approchant d'un point critique.",
+          "languageCode": "fr-CA"
+        },
+        {
+          "artworkDetailsId": 86,
+          "artworkId": 60,
+          "description": "Parte de la serie de fotos de moda de Sherman, Untitled 122 se inspiró en la actriz Frances Farmer. El año anterior, 1982, Jessica Lange actuó como actriz en la película Frances, el relato ficticio sensacionalista de la vida de Farmer, que abarca desde sus años de escuela secundaria en la década de 1930 hasta su supuesta carrera en el cortometraje e institucionalización de enfermedades mentales en la década de 1940 hasta su supuesta lobotomía involuntaria Este trabajo llama la atención simultáneamente sobre la alta moda de la década de 1980, la dramatización de la fama y la celebridad de Hollywood y la demonización del comportamiento asertivo de las mujeres. Usando un largo abrigo negro equipado con grandes hombreras, la figura se encuentra ligeramente encorvada, con los puños cerrados. Su cabello rubio rebelde cubre la mayor parte de su rostro, con una sola ceja fruncida y un ojo azul inyectado en sangre. La fuerte luz de arriba golpea a la mujer, proyectando una sombra debajo y detrás de ella mientras mira desafiante. Ella lee de inmediato como inhibida y llena de ira cerca de un punto de ruptura culminante.",
+          "languageCode": "es-ES"
+        },
+        {
+          "artworkDetailsId": 87,
+          "artworkId": 60,
+          "description": "《无题122》是谢尔曼（Sherman）时装图片系列的一部分，其灵感来自女演员弗朗西斯·法默（Frances Farmer）。上一年（1982年），杰西卡·兰格（Jessica Lange）在电影《弗朗西斯》中扮演女演员，这是一部关于农民生活的虚构小说，从1930年代的高中时代到1940年代的短片生涯和精神病住院治疗到非自愿肺叶切除术。这项工作同时引起人们对1980年代高级时装，好莱坞成名和名人的戏剧化以及女性对自信行为的妖魔化的关注。身穿一件黑色长大衣，配有宽大的肩垫，人物略微弯腰，拳头紧握。她那不守规矩的金发遮住了她的大部分脸，只有一条皱着眉头的眉毛和充满血丝的蓝眼睛闪过。当她挑衅地凝视着她时，从上方刺眼的灯光向那个女人扑倒，在她的背后和背后投下阴影。她立刻读到被压抑并充满了接近高潮临界点的愤怒。",
+          "languageCode": "zh-CN"
+        }
+      ]
+    },
+    "user": {
+      "userId": 56,
+      "ageGroup": null,
+      "preferredLanguage": "en-US",
+      "name": "Rafael Montenegro",
+      "password": null,
+      "email": "rafaelgsmontenegro@gmail.com",
+      "autoPlayDescription": 1,
+      "autoEnrollQuest": 1,
+      "userXP": 100,
+      "profileUrl": "https://lh3.googleusercontent.com/a-/AOh14GgmQJR61fPnZME8PGOMJ-IWroePkzoToUBvLXsKVw=s96-c"
+    }
+  }
+}

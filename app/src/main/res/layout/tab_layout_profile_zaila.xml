@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="tab_layout_profile_zaila">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_sides_profile"
+        android:paddingEnd="@dimen/padding_sides_profile">
+
+        <!--region LANGUAGE -->
+        <include layout="@layout/layout_language_item_profile_zaila" />
+        <!--endregion LANGUAGE -->
+
+        <!--region AUDIO DESCRIPTION -->
+        <include layout="@layout/layout_audio_item_profile_zaila" />
+        <!--endregion AUDIO DESCRIPTION -->
+
+        <!--region QUESTS -->
+        <include layout="@layout/layout_quests_item_profile_zaila" />
+        <!--endregion QUESTS -->
+    </LinearLayout>
+</ScrollView>

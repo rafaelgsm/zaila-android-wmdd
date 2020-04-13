@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8000000"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:id="@+id/layout_scanner_bg"
+    android:paddingTop="@dimen/padding_status_bar"
+    tools:context="com.zailaapp.zaila.views.activities.ScannerActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_scan_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end_scan_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <!--  //////////////////////////////////////////  -->
+
+
+    <LinearLayout
+        android:id="@+id/layout_dialog_box_scanner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_white_round"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toTopOf="@id/ic_img_zaila_scanner"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end_scan_dialog"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_scan_dialog"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAP YOUR PHONE" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_top_scanner_dialog"
+            android:text="OR" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_top_scanner_dialog"
+            android:text="SCAN QR CODE" />
+
+        <FrameLayout
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="@dimen/padding_top_scanner_dialog"
+            android:visibility="invisible"
+            tools:background="@color/colorAccent"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_top_scanner_dialog"
+            android:text="Align QR code to fit inside the frame"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_speech_bubble_tip"
+        app:layout_constraintBottom_toTopOf="@+id/ic_img_zaila_scanner"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end_scan" />
+
+
+    <ImageView
+        android:id="@+id/ic_img_zaila_scanner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_img_zaila"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end_scan"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_scan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

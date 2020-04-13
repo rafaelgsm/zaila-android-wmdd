@@ -1,0 +1,181 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: "androidx.navigation.safeargs"
+
+apply plugin: 'com.bugsnag.android.gradle'
+
+apply plugin: 'com.google.gms.google-services'
+
+android {
+
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        applicationId "com.zailaapp.zaila"
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+
+        def versionMajor = 1
+        def versionMinor = 0
+        def versionPatch = 0
+        def versionBuild = 0
+        versionCode versionMajor * 1000000 + versionMinor * 10000 + versionPatch * 100 + versionBuild
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}-${versionBuild}"
+        setProperty("archivesBaseName", "zaila-$versionName")
+
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+//    signingConfigs {
+//        def keystorePropertiesFile = "$rootDir/tools/signing/keystore.properties"
+//        def keystoreProperties = new Properties()
+//
+//        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+//
+//        config {
+//            keyAlias keystoreProperties.getProperty("keyAlias")
+//            keyPassword keystoreProperties.getProperty("keyPassword")
+//            storeFile file(keystoreProperties.getProperty("storeFile"))
+//            storePassword keystoreProperties.getProperty("storePassword")
+//        }
+//    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    def STRING = "string"
+    def STRING_UPPER = "String"
+    def API_BASE_URL = "API_BASE_URL"
+    def APP_NAME = "APP_NAME"
+
+    buildTypes {
+
+        applicationVariants.all { variant ->
+//            variant.buildConfigField "String", "PLACES_KEY", "\"" + getApiKey() + "\""
+        }
+
+        release {
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "main"
+
+    productFlavors {
+
+        development {
+            dimension 'main'
+            applicationIdSuffix ".development"
+            resValue STRING, APP_NAME, "Zaila Dev"
+
+            buildConfigField STRING_UPPER, API_BASE_URL, '"https://zaila-back-end.herokuapp.com/"'
+//            buildConfigField STRING_UPPER, API_BASE_URL, '"https://zaila-carol.herokuapp.com/"'   //WITH AUTHENTICATION
+//            buildConfigField STRING_UPPER, API_BASE_URL, '"http://10.0.2.2:8080/"'
+
+        }
+
+        production {
+            dimension 'main'
+            resValue STRING, APP_NAME, "Zaila"
+
+            buildConfigField STRING_UPPER, API_BASE_URL, '"https://zaila-back-end.herokuapp.com/"'
+
+//            signingConfig signingConfigs.config
+        }
+    }
+
+}
+
+static def getApiKey() {
+    Properties props = new Properties()
+    props.load(new FileInputStream(new File('tools/secrets.properties')))
+    return props['places_key']
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}"
+
+    //Views
+    implementation "androidx.appcompat:appcompat:${versions.androidx.appcompat}"
+    implementation "androidx.constraintlayout:constraintlayout:${versions.androidx.constraint}"
+
+    implementation "com.mikhaellopez:circularprogressbar:${versions.circle_progress}"
+
+    implementation "androidx.core:core-ktx:${versions.androidx.corektx}"
+
+    //Images / circles:
+    implementation "com.nostra13.universalimageloader:universal-image-loader:${versions.image_loader}"
+    implementation "com.mikhaellopez:circleview:${versions.circleview}"
+    implementation "de.hdodenhof:circleimageview:${versions.circular_image}"
+    implementation "com.github.bumptech.glide:glide:${versions.glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${versions.glide}"
+
+    implementation "me.everything:overscroll-decor-android:${versions.overscroll_decor}"
+
+    //DI
+    implementation "org.koin:koin-android:${versions.koin}"
+    implementation "org.koin:koin-androidx-viewmodel:${versions.koin}"
+
+    //Fragment & navigation
+    api "androidx.fragment:fragment:${versions.androidx.fragment}"
+    api "androidx.fragment:fragment-ktx:${versions.androidx.fragment}"
+    api "androidx.navigation:navigation-fragment-ktx:${versions.androidx.navigation}"
+    api "androidx.navigation:navigation-ui-ktx:${versions.androidx.navigation}"
+
+    //Network
+    implementation "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    implementation "com.squareup.okhttp3:okhttp:${versions.okhttp}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${versions.okhttp}"
+    implementation "com.squareup.okio:okio:${versions.okio}"
+    implementation "com.squareup.retrofit2:converter-scalars:${versions.retrofit}"
+
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${versions.coroutinesAdapter}"
+
+    //Simple networking:
+    implementation "com.android.volley:volley:${versions.volley}"
+
+    //Json Parsing (Using moshi for networking, Gson for internal usage/testing )
+    implementation "com.squareup.retrofit2:converter-gson:${versions.gson}"
+
+    implementation "com.squareup.retrofit2:converter-moshi:${versions.retrofit}"
+
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:${versions.moshi}"
+    implementation "com.squareup.moshi:moshi:${versions.moshi}"
+    implementation "com.squareup.moshi:moshi-adapters:${versions.moshi}"
+
+    //QR Code scanner
+    implementation "me.dm7.barcodescanner:zxing:${versions.qr_scanner}"
+
+    //Location:
+    implementation "com.google.android.gms:play-services-location:17.0.0"
+
+    //Crash reports:
+    implementation "com.bugsnag:bugsnag-android:${versions.bugsnag}"
+
+    //Google sign-in
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

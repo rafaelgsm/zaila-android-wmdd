@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_status_bar">24dp</dimen>
+    <dimen name="toolbar_padding_bottom">10dp</dimen>
+
+    <dimen name="padding_default">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin_close">11dp</dimen>
+    <dimen name="ic_close_padding">5dp</dimen>
+
+    <dimen name="stroke_golden">2dp</dimen>
+
+    <!--  User menu:  -->
+    <dimen name="img_user_menu_size">90dp</dimen>
+    <dimen name="img_user_menu_size_extra">95dp</dimen>
+
+    <dimen name="btn_menu_size">50dp</dimen>
+
+    <dimen name="img_user_menu_padding">16dp</dimen>
+
+    <dimen name="layout_menu_user_top_padding">20dp</dimen>
+    <dimen name="layout_menu_user_end_padding">4dp</dimen>
+
+    <dimen name="btn_2_menu_margin_top">19dp</dimen>
+    <dimen name="btn_2_menu_margin_side">25dp</dimen>
+
+    <dimen name="btn_3_menu_margin_top">17dp</dimen>
+    <dimen name="btn_3_menu_margin_side">7dp</dimen>
+
+    <!--  Zaila menu:  -->
+    <dimen name="img_zaila_size">60dp</dimen>
+
+    <!-- row_museum -->
+    <dimen name="tv_name_museum">20sp</dimen>
+    <dimen name="tv_address_museum">12sp</dimen>
+    <dimen name="tv_featuring_label">14sp</dimen>
+    <dimen name="tv_featuring_label_small">10sp</dimen>
+
+    <dimen name="tv_name_museum_">18sp</dimen>
+    <dimen name="tv_address_museum_">12sp</dimen>
+    <dimen name="tv_featuring_label_">12sp</dimen>
+
+    <dimen name="image_size_row_museum">80dp</dimen>
+
+    <dimen name="padding_bottom_row_museum">10dp</dimen>
+    <dimen name="padding_bottom_row_museum_twice">20dp</dimen>
+
+    <dimen name="padding_top_row_museum">10dp</dimen>
+
+    <!-- category -->
+    <dimen name="img_category_size">40dp</dimen>
+    <dimen name="img_category_border_width">5dp</dimen>
+    <dimen name="padding_bottom_row_exhibition">5dp</dimen>
+    <dimen name="padding_top_scanner_dialog">15dp</dimen>
+
+    <!-- LOGIN -->
+    <dimen name="btn_login_height">44dp</dimen>
+    <dimen name="btn_login_drawable_padding">2dp</dimen>
+
+    <dimen name="margin_top_login_container">35dp</dimen>
+    <dimen name="text_size_login">12sp</dimen>
+    <dimen name="padding_edt_login">5sp</dimen>
+    <dimen name="padding_sides_edt_login">3sp</dimen>
+    <dimen name="img_museum_top_reference">20dp</dimen>
+    <dimen name="margin_bottom_row_museum_bg_2_2">12dp</dimen>
+
+    <dimen name="radius_row_menu">12dp</dimen>
+    <dimen name="img_category_museum_size">25dp</dimen>
+    <dimen name="img_category_museum_size_half">12.5dp</dimen>
+
+
+    <!-- PROFILE -->
+    <dimen name="tv_tab_title_size">18sp</dimen>
+
+    <dimen name="margin_top_menu_profile">105dp</dimen>
+    <dimen name="margin_bottom_menu_profile">40dp</dimen>
+    <dimen name="margin_bottom_menu_profile_plus_10">50dp</dimen>
+
+    <dimen name="margin_profile_settings">40dp</dimen>
+    <dimen name="margin_top_profile_settings">20dp</dimen>
+
+    <dimen name="padding_sides_profile">11dp</dimen>
+    <dimen name="img_language_size">26dp</dimen>
+    <dimen name="tv_size_language">12sp</dimen>
+
+    <dimen name="padding_top_bot_profile_zaila">7dp</dimen>
+    <dimen name="padding_sides_profile_zaila">9dp</dimen>
+
+    <dimen name="padding_top_item_zaila">3dp</dimen>
+    <dimen name="padding_bottom_item_zaila">5dp</dimen>
+
+    <dimen name="stroke_layout_container_item_profile">2dp</dimen>
+    <dimen name="round_item_profile_zaila">12dp</dimen>
+    <dimen name="margin_bottom_tv_label_profile_background">5dp</dimen>
+    <dimen name="margin_bottom_item_profile_zaila">17dp</dimen>
+    <dimen name="height_switch">23dp</dimen>
+    <dimen name="tv_museum_time_size">12sp</dimen>
+    <dimen name="padding_sides_details">11dp</dimen>
+    <dimen name="padding_start_title_exhibition">10dp</dimen>
+    <dimen name="margin_top_exhibition_row_body">4dp</dimen>
+    <dimen name="padding_login_container">15dp</dimen>
+    <dimen name="margin_bottom_zaila_menu">5dp</dimen>
+
+</resources>

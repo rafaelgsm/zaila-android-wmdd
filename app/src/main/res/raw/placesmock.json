@@ -1,0 +1,906 @@
+{
+  "html_attributions": [],
+  "next_page_token": "CqQCHQEAAP6Ki4sUp_lhKAkqw-Ip9z12xyp4F6_PCMmfhu5a1_ZKHOL4gbPGIsaPIoJ58SFqc5QuIDnpGwYnuhZOFpSjNoCZfQqCXYbFInTNXS_VK8HWtqy-myW4xTNX5plY4i5ctBOb9sN_t6DUstiQXhkiFMnHvWYai7gkSxLTY2biFP87bOWGg2rtoO99jdgPFmOE-TQxnmVznfdEYnH6mIqHZTt8dGqmlS4FmwM0KXY2NDTuQMddCHXjE0GxDXU63jqXwAyNQyG9qh5TIOwFyohKDjEWfI_dEFxir8dErrSrYl-GZ3o4RUmm8_35GYqsMi_7i-dKPJtGipAtBPQb_mU8KBdkVFiq7SJYr7la0iXCFkHDWh_lDjY84ThS6fDXKuN74hIQFdh37xIWf1UOa0uL4Kwe-BoU1LYBqSVigZdj1MFG8s1sWTZYDyM",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.273376,
+          "lng": -123.103834
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2746772302915,
+            "lng": -123.10117225
+          },
+          "southwest": {
+            "lat": 49.2719792697085,
+            "lng": -123.10472125
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "cf32e0158bb7ca6bcf29e17bea3fdeca5604c020",
+      "name": "Science World at TELUS World of Science",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2736,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116172352288405894358\">javier vazquez</a>"
+          ],
+          "photo_reference": "CmRaAAAA4XHoE4FxHrCsr0kUKYjpBghiZdCM7-ios6G7IEVkeG8FluoS4KWNLUgyfgy-ziDXwR34CZ1cFwHaJCz-JAdaFFLa3IIDs_SRgQvE5rMRl1CoxGAiBKUKt9HjTuk_avoTEhAf82TIjdUzgIEwCipf91S4GhSXeCcr7oJeobaoqyiEnyT_MLyG_A",
+          "width": 3648
+        }
+      ],
+      "place_id": "ChIJnZHwi2NxhlQRN3CYHzc3giE",
+      "plus_code": {
+        "compound_code": "7VFW+9F Vancouver, British Columbia, Canada",
+        "global_code": "84XR7VFW+9F"
+      },
+      "rating": 4.5,
+      "reference": "ChIJnZHwi2NxhlQRN3CYHzc3giE",
+      "scope": "GOOGLE",
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 8274,
+      "vicinity": "1455 Quebec Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2289115,
+          "lng": -123.1175854
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.23026393029149,
+            "lng": -123.1164464197085
+          },
+          "southwest": {
+            "lat": 49.22756596970849,
+            "lng": -123.1191443802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "503a338fcfb2d51b399d81a1156e21db577e37bd",
+      "name": "Jewish Museum and Archives of British Columbia",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 848,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/101115510514072784526\">Jewish Museum and Archives of British Columbia</a>"
+          ],
+          "photo_reference": "CmRaAAAAXNLoPe4AVqmcHUNwGYZ7P_H3E-Nd2c7CzbyWhFNlP5Ny248q22ozB0JFpXfz1MVnqB6sDWif5fF1kGNhifO7-GFryn_OlnUrLNV5jI839whNama3avNk7l0mGQUtxQuQEhCbsTcZ7TYjCTViFaSiBS3jGhQo4w9OhKS--JhijpY8V9YQeegi7w",
+          "width": 1509
+        }
+      ],
+      "place_id": "ChIJta5c93h0hlQRkn_YaPX2VOw",
+      "plus_code": {
+        "compound_code": "6VHJ+HX Vancouver, British Columbia, Canada",
+        "global_code": "84XR6VHJ+HX"
+      },
+      "rating": 3.3,
+      "reference": "ChIJta5c93h0hlQRkn_YaPX2VOw",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3,
+      "vicinity": "6184 Ash Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.20642369999999,
+          "lng": -123.1424012
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.20777108029149,
+            "lng": -123.1409831197085
+          },
+          "southwest": {
+            "lat": 49.20507311970849,
+            "lng": -123.1436810802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "9f7ff4a3184f052bdc826fff2cbd1f3a2788721b",
+      "name": "Marpole Museum & Historical Society",
+      "place_id": "ChIJgT896-p0hlQR5zKpgnevsaI",
+      "plus_code": {
+        "compound_code": "6V45+H2 Vancouver, British Columbia, Canada",
+        "global_code": "84XR6V45+H2"
+      },
+      "reference": "ChIJgT896-p0hlQR5zKpgnevsaI",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "8743 Marine Dr SW, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2649694,
+          "lng": -123.13834
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.26632008029149,
+            "lng": -123.1370986697085
+          },
+          "southwest": {
+            "lat": 49.26362211970849,
+            "lng": -123.1397966302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "64a7028be07ab35c1d9690c6a774f8db212fba33",
+      "name": "Ian Tan Art Gallery Vancouver",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 584,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110353407654119376010\">Ian Tan Art Gallery Vancouver</a>"
+          ],
+          "photo_reference": "CmRaAAAAgII2aRpKikqYItdde1DadvNHymnnUau7rbdGr7pvWouirEGYObayoznxtb9tbI7Z--9e0RtGSnYr7mwOxuOvrH8yYv7RgO9S3RrUX4VK3R1KLt8dXITQ0_n63Z98w7h-EhCUn5_k-jRPIZ11pDeosIGhGhRBf-st4UZEYse_Aby_URVmWwwAgA",
+          "width": 1098
+        }
+      ],
+      "place_id": "ChIJnQwCK8ZzhlQR5i2qTdpKDRU",
+      "plus_code": {
+        "compound_code": "7V76+XM Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V76+XM"
+      },
+      "rating": 4.6,
+      "reference": "ChIJnQwCK8ZzhlQR5i2qTdpKDRU",
+      "scope": "GOOGLE",
+      "types": [
+        "art_gallery",
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 11,
+      "vicinity": "2342 Granville Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.26880739999999,
+          "lng": -123.0984692
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.27020948029149,
+            "lng": -123.0970503697085
+          },
+          "southwest": {
+            "lat": 49.26751151970849,
+            "lng": -123.0997483302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "fc7abcfe4906c466d851949c9808f3141ce0c8d3",
+      "name": "Elan Fine Art Limited",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2696,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104253376428377932963\">Elan Fine Art Limited</a>"
+          ],
+          "photo_reference": "CmRaAAAA-AJ0RmZ5vkUEdh35XO3_j3d4X9mc7LV-lXYX9sH-02vzlRdTJNN1KrPUqRoebeTzTVF8NyKkbxpcngywLORrMuv5GQRp8rXoeE0EON-HaTjk258hstiOINalWPE7ZqSNEhAONoLESeMzGcLB--FZ0KfRGhSEdDzp1NX7ZeQNRCDYZALJ73H-Bw",
+          "width": 4093
+        }
+      ],
+      "place_id": "ChIJOXIuJLZzhlQRcpxxX-QPxOk",
+      "plus_code": {
+        "compound_code": "7W92+GJ Vancouver, British Columbia, Canada",
+        "global_code": "84XR7W92+GJ"
+      },
+      "rating": 4.8,
+      "reference": "ChIJOXIuJLZzhlQRcpxxX-QPxOk",
+      "scope": "GOOGLE",
+      "types": [
+        "art_gallery",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4,
+      "vicinity": "258 East 1st Avenue Unit 4, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2700915,
+          "lng": -123.1306514
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2713511802915,
+            "lng": -123.1295436697085
+          },
+          "southwest": {
+            "lat": 49.2686532197085,
+            "lng": -123.1322416302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "5a4822294abc5b84546b816463c1648696a537d0",
+      "name": "Nudelman Collection Floating Gallery",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 750,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114595262867546396795\">Nudelman Collection Floating Gallery</a>"
+          ],
+          "photo_reference": "CmRaAAAAzQpcycCJr-kSk57qqIm_2w4zGMPedm6y8CujpTjkKGYIFYrreavX6RFv-6FIyenyrnjSxyaadMJBGougJ3z13moyzdM7z8oe9146laY47y5kXycC4feru53CbVJOlZUpEhAF9eiIXBoxHCaVv-1nWm2aGhRN0rJwR8e_8cKw-N6Ca-GBJ2xOEw",
+          "width": 750
+        }
+      ],
+      "place_id": "ChIJxVEbsc9zhlQR7YPfZEN3FMQ",
+      "plus_code": {
+        "compound_code": "7VC9+2P Vancouver, British Columbia, Canada",
+        "global_code": "84XR7VC9+2P"
+      },
+      "rating": 5,
+      "reference": "ChIJxVEbsc9zhlQR7YPfZEN3FMQ",
+      "scope": "GOOGLE",
+      "types": [
+        "art_gallery",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4,
+      "vicinity": "Sea Village First House on the Right, 1295 Johnston Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2336228,
+          "lng": -123.1269706
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2350987802915,
+            "lng": -123.1256180697085
+          },
+          "southwest": {
+            "lat": 49.2324008197085,
+            "lng": -123.1283160302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "b1e2cce3e4857b6568d3e8d68a258105214927e2",
+      "name": "Vancouver Holocaust Centre",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112994119499878115748\">Graham Bradley</a>"
+          ],
+          "photo_reference": "CmRaAAAAzDFE__yddCk_tQD0fnNG4Vy-rqmudhibndhFDXoTRaF7FbBaMtVapLG-qlHm7DRMby-4yF-l7slDfdTRgbPMqd-l4qgXzjjlx01lPwrbcBoIFyJFPvrRctVmYHrcFshdEhCDsVT21ISsnkhEwow4PNmkGhTPSR9DytA5LG51NeG1rudBdtWLYA",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJexoR8Xh0hlQRcCjlkQHejk4",
+      "plus_code": {
+        "compound_code": "6VMF+C6 Vancouver, British Columbia, Canada",
+        "global_code": "84XR6VMF+C6"
+      },
+      "rating": 3.6,
+      "reference": "ChIJexoR8Xh0hlQRcCjlkQHejk4",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 14,
+      "vicinity": "Canada"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2326978,
+          "lng": -123.0936271
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.23417308029151,
+            "lng": -123.0922742697085
+          },
+          "southwest": {
+            "lat": 49.23147511970851,
+            "lng": -123.0949722302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "8c8a2b4f9901c3a957125464833149e22ac5d84a",
+      "name": "John Oliver Legacy Society",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105621701069225110063\">John Oliver Legacy Society</a>"
+          ],
+          "photo_reference": "CmRaAAAAXLuwgw6pQY-08PYRTWg6PF7je1nTNPnjFWpfsEt3Niy6XsndrIRj3l5f7KANVbG9Wc52izyo8up1JnmIKEWMTjeGFuZ8xlGyVvpsvBHDAPVfzfHE3y01pasovYTqcmMHEhAZW27WlPIJyK3WlE-qFgLcGhTBAsD7gXryVbQq2jR6lCB5LSzHSw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJYdL_ot91hlQRYbllKlYl1p8",
+      "plus_code": {
+        "compound_code": "6WM4+3G Vancouver, British Columbia, Canada",
+        "global_code": "84XR6WM4+3G"
+      },
+      "reference": "ChIJYdL_ot91hlQRYbllKlYl1p8",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "530 East 41st Avenue, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2428057,
+          "lng": -123.1059675
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2441496302915,
+            "lng": -123.1044677197085
+          },
+          "southwest": {
+            "lat": 49.2414516697085,
+            "lng": -123.1071656802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "e1754cc18f74d434561360023360787ac8d1e904",
+      "name": "Bud Kerr Baseball Museum",
+      "photos": [
+        {
+          "height": 2592,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111579342668019483696\">John Rogers</a>"
+          ],
+          "photo_reference": "CmRaAAAAmcgbb1GVfYO_cSkBN30KmopIZwJU2Re7uyTD3XFvqlg-Vba_ronZuJ2LZpmQNuPIDLEoA_LLpXYzbQkfBmf_HoiXQ0vWysBPF694r3aCPfUXhb2YZZTkJvbY-oKUeQz6EhAt6RbGP3T12JUElVZhA7_6GhQWhM39edPJs09vNdGcw9cgQ4dWFA",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJlyk0nMtzhlQRALz3E6fo8-g",
+      "plus_code": {
+        "compound_code": "6VVV+4J Vancouver, British Columbia, Canada",
+        "global_code": "84XR6VVV+4J"
+      },
+      "reference": "ChIJlyk0nMtzhlQRALz3E6fo8-g",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "4601 Ontario Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.23805170000001,
+          "lng": -123.0917215
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.23940023029149,
+            "lng": -123.0903268697085
+          },
+          "southwest": {
+            "lat": 49.23670226970849,
+            "lng": -123.0930248302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "7edecc08aad53c532fee79cd3f0af295fa5e53cc",
+      "name": "Pavilion of Chinese Cemetery, MOUNTAIN VIEW CEMETERY",
+      "place_id": "ChIJd33eUg50hlQRC2Egm4-5_Oc",
+      "plus_code": {
+        "compound_code": "6WQ5+68 Vancouver, British Columbia, Canada",
+        "global_code": "84XR6WQ5+68"
+      },
+      "rating": 3.7,
+      "reference": "ChIJd33eUg50hlQRC2Egm4-5_Oc",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 3,
+      "vicinity": "5216 Fraser Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.204909,
+          "lng": -123.1335675
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2062565302915,
+            "lng": -123.1321418197085
+          },
+          "southwest": {
+            "lat": 49.20355856970851,
+            "lng": -123.1348397802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "2b08e33ae6a7e1795eb21ef99dbb716b8f31fc5d",
+      "name": "Competent Cultural Speakers Toastmasters Club",
+      "opening_hours": {
+        "open_now": false
+      },
+      "place_id": "ChIJa71yVOl0hlQRiFyaPfW4sNU",
+      "plus_code": {
+        "compound_code": "6V38+XH Vancouver, British Columbia, Canada",
+        "global_code": "84XR6V38+XH"
+      },
+      "reference": "ChIJa71yVOl0hlQRiFyaPfW4sNU",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "8853 Selkirk Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2362009,
+          "lng": -123.155854
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2375490302915,
+            "lng": -123.1543456197085
+          },
+          "southwest": {
+            "lat": 49.2348510697085,
+            "lng": -123.1570435802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "f47b3d58fbb82dd84b4f4f243256d783d5966bdc",
+      "name": "Data Tech International | Data Tech Consulting International",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 532,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109729264487517080648\">My Site</a>"
+          ],
+          "photo_reference": "CmRaAAAAQqc7qqZKiDXNSndpxp6T-lwtZoKBR6PM31SC_nqiT1dvCRhs9tdyapE1bs39Qn9agfuKIM9zXqDoY6jQ8Ww-a8TQOQURviLNjNAMySOCLk0UXPO9e_428PM5eOgbdkH8EhDfuve9opEHd5guzyTdvo6ZGhStRpdOSeQm8rWN7y8zN0Paeshcpw",
+          "width": 1683
+        }
+      ],
+      "place_id": "ChIJz139PHpzhlQR50HO5EUuGwU",
+      "plus_code": {
+        "compound_code": "6RPV+FM Vancouver, British Columbia, Canada",
+        "global_code": "84XR6RPV+FM"
+      },
+      "rating": 5,
+      "reference": "ChIJz139PHpzhlQR50HO5EUuGwU",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2,
+      "vicinity": "5525 West Boulevard, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2627554,
+          "lng": -123.1022813
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2642011302915,
+            "lng": -123.1009266197085
+          },
+          "southwest": {
+            "lat": 49.2615031697085,
+            "lng": -123.1036245802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "a0a362ee2dd46f30f1422885351743f9cc606f1d",
+      "name": "Fishing for heart graffiti",
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115650111550905290171\">Scott Gardner</a>"
+          ],
+          "photo_reference": "CmRaAAAAxF5KD8Ft2MzzDW9VgQLM-FuxlOCkdoIBB19G45SMaMHWDIFjwW6jLJbln4jHMbAzqe0LL_9cZ32D0EOWRQGS3olpnml65mR9osUX7bY1HsqiZ6-yIweu1-jOCPDADNluEhCsMPTQMK6D7JrlfYtvhYB0GhSljuQy7e4OmL3mPJc-49gIBSJxWQ",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJZ05bIq9zhlQRmpJ636nUK_I",
+      "plus_code": {
+        "compound_code": "7V7X+43 Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V7X+43"
+      },
+      "rating": 5,
+      "reference": "ChIJZ05bIq9zhlQRmpJ636nUK_I",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1,
+      "vicinity": "126 East Broadway, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2681213,
+          "lng": -123.1012397
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.26952343029149,
+            "lng": -123.0998876697085
+          },
+          "southwest": {
+            "lat": 49.26682546970849,
+            "lng": -123.1025856302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "12c706b278e0d36981f2cd1bb8080bc263d77871",
+      "name": "La Casa Del Artista",
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/108755140461075729458\">Khairul Hassan</a>"
+          ],
+          "photo_reference": "CmRaAAAA6qoz1uZ4d61rVQQxkd0mbx-YwHn7EO74S2JMBzIRODfVwBFN-5bQEts3zQpLBBm7dTbrFWOCfIHUSXtJerRYxqqVm-L01k-3Zr4OSuOh2zPMPo4nFdHeiGVcn22WIDivEhC9IRG5aqokYXjIouY6hmFHGhRzWfox_Sb5OrHOwCyJTH7PXf3xtw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJud49YGBxhlQRzeS2a6fA_EA",
+      "plus_code": {
+        "compound_code": "7V9X+6G Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V9X+6G"
+      },
+      "rating": 3.2,
+      "reference": "ChIJud49YGBxhlQRzeS2a6fA_EA",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 5,
+      "vicinity": "150 East 3rd Avenue, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.269215,
+          "lng": -123.116901
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.27053693029149,
+            "lng": -123.1151889697085
+          },
+          "southwest": {
+            "lat": 49.26783896970849,
+            "lng": -123.1178869302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "22a7c1fd0462882cbe6045310fed7895eb90bf9c",
+      "name": "Wave Energy Testing",
+      "photos": [
+        {
+          "height": 1950,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104022222557024593537\">Wave Energy Testing</a>"
+          ],
+          "photo_reference": "CmRaAAAA_voS6BIpD_eOQRi7crU85DfqCTUu7CInxhFjPC3CPSHH0JNADvXpOd-FRBY-fXZ01tIvqELRxfOZyn-31rEcTtIoST9Lr-UVqKgb5GX-d-GHIQ-vuUFWKrUmWzIIhfNoEhCm_-4vB3rCXUYS3K5KgK7KGhTz7tNT8I-OT6pyUDrL_J8x1JrsEw",
+          "width": 2508
+        }
+      ],
+      "place_id": "ChIJ1Vc7351zhlQRobtzS439mSg",
+      "plus_code": {
+        "compound_code": "7V9M+M6 Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V9M+M6"
+      },
+      "reference": "ChIJ1Vc7351zhlQRobtzS439mSg",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "525 Wheelhouse Square #419, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.267821,
+          "lng": -123.132099
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2691085802915,
+            "lng": -123.1309134697085
+          },
+          "southwest": {
+            "lat": 49.2664106197085,
+            "lng": -123.1336114302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "99f6013fb248bc832cd4def0908df660f09fb62c",
+      "name": "Labyrinth Pier",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 900,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100225111648831190944\">HiMYSYeD</a>"
+          ],
+          "photo_reference": "CmRaAAAAHkaLFlHKw6cHUBb16HxRn2t7kuZ3j1OdMeCVUBc7M8EXt_ZbvzRpDsIHnyZjIaLq4PDsQVw7ujR7QaSXlsJjHO40i9m_qAKjybRV0qBKBv2NpxuYxbhgpElyjT_5klA9EhDEXP30ZNaUzCBkto5QoJxnGhQ3Tp7xeltpHVCqocslfuIZdS2cUQ",
+          "width": 720
+        }
+      ],
+      "place_id": "ChIJT1chc-5zhlQRhwFIiU3rOGo",
+      "plus_code": {
+        "compound_code": "7V99+45 Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V99+45"
+      },
+      "reference": "ChIJT1chc-5zhlQRhwFIiU3rOGo",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "1301 Island Park Walk, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2700671,
+          "lng": -123.1063236
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.27147128029149,
+            "lng": -123.1049718697085
+          },
+          "southwest": {
+            "lat": 49.26877331970849,
+            "lng": -123.1076698302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "376dd47f89271ddbdbd3e812aea545a3b3212bbc",
+      "name": "The Pyramids At The Pinnacle",
+      "place_id": "ChIJ93NrPv9xhlQRUcp7EGSpj4U",
+      "plus_code": {
+        "compound_code": "7VCV+2F Vancouver, British Columbia, Canada",
+        "global_code": "84XR7VCV+2F"
+      },
+      "reference": "ChIJ93NrPv9xhlQRUcp7EGSpj4U",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "88w West 1st Avenue, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.27078049999999,
+          "lng": -123.1032547
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2721507302915,
+            "lng": -123.1020245197085
+          },
+          "southwest": {
+            "lat": 49.26945276970851,
+            "lng": -123.1047224802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "bedd63eba0ac4d1ed7ebf3afb557e82bef187a57",
+      "name": "Eye on the Street",
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104653448256944634698\">Emily WG</a>"
+          ],
+          "photo_reference": "CmRaAAAA71hS5EBiJjEwrU6CXj2aack8FqMlp_G3LBuhrecpJ0kZdjKoAxg7bWl_kfxsysb447YD3W_8KyIDubwic4WusLjH_JRuXs_A8egsxQvTYhSBtDjOzj3lXE3vvryYg-mNEhDaRl66nJnvXv0MR_J3g-mTGhRs66q0skTca2UrCTbFHLm33LNfGg",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJlRynyThxhlQR70jMEWP2_cE",
+      "plus_code": {
+        "compound_code": "7VCW+8M Vancouver, British Columbia, Canada",
+        "global_code": "84XR7VCW+8M"
+      },
+      "reference": "ChIJlRynyThxhlQR70jMEWP2_cE",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2699605,
+          "lng": -123.136267
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2714298302915,
+            "lng": -123.1351110697085
+          },
+          "southwest": {
+            "lat": 49.2687318697085,
+            "lng": -123.1378090302915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "33c1a965f4c8663742ef0c7dba0757f049b00c90",
+      "name": "Duck Pond",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/104912287640644359992\">Kesh Patel</a>"
+          ],
+          "photo_reference": "CmRaAAAAo0V2awKHO-pOBqNA6b-5E6SlvrHCE9Y3RdNn9QWUY2mVrvvRBvdpQPSU1J6Bs3w_3QXnjcA28je8n3lll1KDGB5C1wjY9iYm6FjxcDz4HYQ5ySvvSi1SPEI-8zcmFE2_EhC1Iu0nEQDm90RofnoRv3YCGhQsLus3fWrUHskqVYNuJfliw3905Q",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJfx87mIFzhlQRf5HLtl4NniM",
+      "plus_code": {
+        "compound_code": "7V97+XF Vancouver, British Columbia, Canada",
+        "global_code": "84XR7V97+XF"
+      },
+      "reference": "ChIJfx87mIFzhlQRf5HLtl4NniM",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "vicinity": "1602 Anderson Street, Vancouver"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 49.2726462,
+          "lng": -123.1026504
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 49.2739894802915,
+            "lng": -123.1010497197085
+          },
+          "southwest": {
+            "lat": 49.2712915197085,
+            "lng": -123.1037476802915
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+      "id": "69ca9888d3299f7bb51be602421e7d54174ef05f",
+      "name": "Wood Carving at Telus Science World Park",
+      "photos": [
+        {
+          "height": 1536,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116059921253945051287\">Ofer Livni</a>"
+          ],
+          "photo_reference": "CmRaAAAAEjVboOMZrC7bII_Rcvspr_uSsRYlw1x6uzISajddO1ete3lClgX3HwveTbFNOP07u0qpOviDP_PzaCtrysE37FMwIzXVq2vz1TBGKqDP3OilJeM93SvgOrxTCL-10atFEhBO3kI8ABO0_xCbFRtI2v2fGhT6kEBm3dRlarZa1ojZfc2HTaj3zQ",
+          "width": 2048
+        }
+      ],
+      "place_id": "ChIJ44EEOtdxhlQRbnHcWLrPGeo",
+      "plus_code": {
+        "compound_code": "7VFW+3W Vancouver, British Columbia, Canada",
+        "global_code": "84XR7VFW+3W"
+      },
+      "rating": 5,
+      "reference": "ChIJ44EEOtdxhlQRbnHcWLrPGeo",
+      "scope": "GOOGLE",
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4,
+      "vicinity": "Vancouver"
+    }
+  ],
+  "status": "OK"
+}

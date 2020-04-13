@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@+id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.zailaapp.zaila.views.fragments.home.HomeFragment"
+        android:label="Fragment1"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/actionGoArtworkList"
+            app:destination="@id/artworkListFragment" />
+
+        <action
+            android:id="@+id/actionGoProfile"
+            app:destination="@id/profileFragment" />
+
+        <action
+            android:id="@+id/actionGoMuseum"
+            app:destination="@id/museumDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/museumDetailsFragment"
+        android:name="com.zailaapp.zaila.views.fragments.museumDetails.MuseumDetailsFragment"
+        android:label="museumFragment"
+        tools:layout="@layout/fragment_museum_details">
+
+        <action
+            android:id="@+id/actionGoProfile"
+            app:destination="@id/profileFragment" />
+
+        <action
+            android:id="@+id/actionGoExhibition"
+            app:destination="@id/exhibitionDetailsFragment" />
+
+        <argument
+            android:name="museum"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/exhibitionDetailsFragment"
+        android:name="com.zailaapp.zaila.views.fragments.exhibitionDetails.ExhibitionDetailsFragment"
+        android:label="exhibitionFragment"
+        tools:layout="@layout/fragment_exhibition_details">
+
+        <action
+            android:id="@+id/actionGoProfile"
+            app:destination="@id/profileFragment" />
+
+        <argument
+            android:name="exhibition"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/artworkListFragment"
+        android:name="com.zailaapp.zaila.views.fragments.artworkList.ArtworkListFragment"
+        android:label="listFragment"
+        tools:layout="@layout/fragment_artwork_list">
+
+        <action
+            android:id="@+id/actionGoProfile"
+            app:destination="@id/profileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.zailaapp.zaila.views.fragments.profile.ProfileFragment"
+        android:label="profileFragment"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/actionGoArtworkList"
+            app:destination="@id/artworkListFragment" />
+
+    </fragment>
+
+</navigation>
